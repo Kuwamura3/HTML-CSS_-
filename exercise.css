@@ -1,0 +1,69 @@
+/* CSSをリセットする */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  margin: 0 15px;
+  background-color: #eeeeee;
+}
+
+.step {
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #ff9a4b;
+}
+
+.image {
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.i1 {
+  background-image: url(img/flow01.png);
+}
+
+.i2 {
+  background-image: url(img/flow02.png);
+}
+
+.i3 {
+  background-image: url(img/flow03.png);
+}
+
+.title {
+  margin: 15px 0 5px 0;
+}
+
+.footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768) {
+
+
+
+  
+}
